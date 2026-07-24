@@ -1,7 +1,7 @@
 import java.util.concurrent.Semaphore;
 import java.util.function.IntConsumer;
 
-class ZeroEvenOdd {
+class ZeroEvenOdd { 
     private int n;
     private Semaphore zero = new Semaphore(1);
     private Semaphore even = new Semaphore(0);
