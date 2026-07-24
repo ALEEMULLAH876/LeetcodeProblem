@@ -2,7 +2,7 @@ class Solution {
     public int numDistinct(String s, String t) {
         int m = s.length();
         int n = t.length();
-
+ 
         long[][] dp = new long[m + 1][n + 1];
 
         // Empty string t can always be formed
