@@ -2,7 +2,7 @@
 
 class Foo {
 
-    private CountDownLatch firstDone;
+    private CountDownLatch firstDone; 
     private CountDownLatch secondDone;
 
     public Foo() {
